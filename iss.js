@@ -70,7 +70,7 @@ prompt.get(['location'], function(err, result) {
           
           var d = p1.distanceTo(p2);
           
-           console.log(d)
+           console.log("you are " + d / 1000 + "km" + " away from the ISS")
         }
       });
 
